@@ -16,13 +16,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    Tafang.cpp \
+    button.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    turret.cpp \
+    window.cpp
 
 HEADERS += \
-    Tafang.h \
-    mainwindow.h
+    button.h \
+    mainwindow.h \
+    turret.h \
+    window.h
 
 FORMS += \
     mainwindow.ui

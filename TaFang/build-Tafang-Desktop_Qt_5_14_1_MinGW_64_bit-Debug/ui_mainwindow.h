@@ -30,7 +30,7 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(1200, 1000);
-        MainWindow->setMinimumSize(QSize(1200, 1000));
+        MainWindow->setMinimumSize(QSize(100, 100));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         MainWindow->setCentralWidget(centralwidget);

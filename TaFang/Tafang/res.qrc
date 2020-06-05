@@ -3,6 +3,11 @@
         <file>sound/sound.mp3</file>
     </qresource>
     <qresource prefix="/image">
-        <file>image/map.png</file>
+        <file>image/map2.png</file>
+        <file>image/map1.png</file>
+        <file>image/turret1.png</file>
+        <file>image/start.png</file>
+        <file>image/set_turret.png</file>
+        <file>image/set.png</file>
     </qresource>
 </RCC>
