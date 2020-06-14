@@ -4,6 +4,7 @@
 #include <QObject>
 #include <QPoint>
 #include <QPixmap>
+#include "button.h"
 
 class Turret : public QObject
 {
@@ -11,9 +12,11 @@ class Turret : public QObject
 public:
     Turret(QPoint po,QString pixFilename);
     void draw(QPainter * painter);
+
 private:
     QPoint _po;
     QPixmap pixmap;
+
 
 signals:
 

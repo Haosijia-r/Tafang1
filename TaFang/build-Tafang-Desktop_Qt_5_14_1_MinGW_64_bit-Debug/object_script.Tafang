@@ -2,9 +2,11 @@ button.o
 main.o
 mainwindow.o
 turret.o
+waypoint.o
 window.o
 qrc_res.o
 moc_button.o
 moc_mainwindow.o
 moc_turret.o
+moc_waypoint.o
 moc_window.o

@@ -8,6 +8,6 @@
         <file>image/turret1.png</file>
         <file>image/start.png</file>
         <file>image/set_turret.png</file>
-        <file>image/set.png</file>
+        <file>image/circle.png</file>
     </qresource>
 </RCC>

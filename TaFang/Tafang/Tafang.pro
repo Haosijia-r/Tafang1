@@ -20,12 +20,14 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     turret.cpp \
+    waypoint.cpp \
     window.cpp
 
 HEADERS += \
     button.h \
     mainwindow.h \
     turret.h \
+    waypoint.h \
     window.h
 
 FORMS += \

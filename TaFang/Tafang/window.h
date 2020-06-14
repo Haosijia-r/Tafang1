@@ -6,6 +6,7 @@
 #include "button.h"
 #include <QList>
 #include <vector>
+#include"waypoint.h"
 
 class Window : public QMainWindow
 {
@@ -13,14 +14,19 @@ class Window : public QMainWindow
 public:
     explicit Window(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent *);
-    void set_Turret();
+    void loadposition();//设置炮塔位置
+    void set_Turret(QPoint po);
     void initGame();
+    void setwayPoints();
 private:
     QList<Turret*> turret_list;
-
-
+    QList<Button*> turretPositionsList;
+    QList<WayPoint*> wayPointlist;
 signals:
 
 };
+
+
+
 
 #endif // WINDOW_H
