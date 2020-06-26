@@ -1,11 +1,15 @@
 button.o
+enemy.o
 main.o
 mainwindow.o
+slowturret.o
 turret.o
+upenemy.o
 waypoint.o
 window.o
 qrc_res.o
 moc_button.o
+moc_enemy.o
 moc_mainwindow.o
 moc_turret.o
 moc_waypoint.o

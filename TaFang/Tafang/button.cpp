@@ -11,11 +11,11 @@ Button::Button(QString pix):QPushButton(0)
     this->setIconSize(QSize(pixmap.width(),pixmap.height()));
 }
 
-/*Button::Button(QPoint po)
+Button::Button(QPoint po)
 {
     _po=po;
-}*/
-void Button::draw(QPainter * painter, QPoint po)
-{
-    painter->drawPixmap(po,QPixmap(":image/image/set_turret.png"));
 }
+/*void Button::draw(QPainter * painter, QPoint po)
+{
+    //painter->drawPixmap(po,QPixmap(":image/image/set_turret.png"));
+}*/

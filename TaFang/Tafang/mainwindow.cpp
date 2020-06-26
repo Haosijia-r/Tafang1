@@ -17,13 +17,15 @@ MainWindow::MainWindow(QWidget *parent):
     ui->setupUi(this);
     Button *bin=new Button(":image/image/start.png");//设置开始按钮
     bin->setParent(this);
-    bin->move(250,300);
-    Window *scene = new Window();
+    bin->move(215,300);
+
     connect(bin,&QPushButton::clicked,this,[=]()
     {
+        Window *scene = new Window();
         this->close();
         scene->show();
     });//点击按钮后游戏开始界面关闭同时主场景界面打开
+
 }
 
 void MainWindow::paintEvent(QPaintEvent *)//重载paintevent函数

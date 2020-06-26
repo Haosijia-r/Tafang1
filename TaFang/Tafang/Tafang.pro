@@ -17,16 +17,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     button.cpp \
+    enemy.cpp \
     main.cpp \
     mainwindow.cpp \
+    slowturret.cpp \
     turret.cpp \
+    upenemy.cpp \
     waypoint.cpp \
     window.cpp
 
 HEADERS += \
     button.h \
+    enemy.h \
     mainwindow.h \
+    slowturret.h \
     turret.h \
+    upenemy.h \
     waypoint.h \
     window.h
 
@@ -40,3 +46,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
+
+win64:CONFIG += console
